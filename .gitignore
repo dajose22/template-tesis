@@ -1,0 +1,15 @@
+*.pyc
+*~
+*.aux
+*.log
+*.lof
+*.idx
+*.out
+*.bbl
+*.blg
+*.lot
+*.toc
+acta.pdf
+main.tex
+
+
