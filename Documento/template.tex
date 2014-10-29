@@ -14,10 +14,11 @@
 
 \usepackage{fancyhdr}                   % fancy page headers
 
-\newcommand{\scriptAuthor}{Sergio Saborío Taylor}
+% Nombre del Estudiante
+\newcommand{\scriptAuthor}{Nombre Apellido}
 
 % Título de la tesis
-\newcommand{\scriptTitle}{Adaptar el código fuente del OpenFlow Agent Indigo, para que se comunique con el API de los futuros ASIC de HP} 
+\newcommand{\scriptTitle}{Diseño de ...} 
 
 % Keywords
 \newcommand{\scriptKeywords}{...}
@@ -82,13 +83,6 @@ $fallbacks
 
 $body
   
-\appendix
-  \appendixpage
-  \section{Documentación para HP}
-  \includepdf[pages=-]{documentation.pdf}
-  \section{Aprobación del Administrador de la Documentación}
-  \includepdf[pages=-]{carta.pdf}
-  \section{Especificaciones de OpenFlow 1.3}
-  \includepdf[pages=-]{openflow-spec-v1-3.pdf}
+\include{anexos}
 
 \end{document}

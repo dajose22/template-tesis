@@ -29,7 +29,7 @@ fig/%.pdf : fig/%.gplot
 all:  $(PDFFILES) pdf
 
 clean:
-	rm -rf $(DOCUMENT).tex *.lot *.toc *.lof *.out *.aux *.bbl *.blg *.log *.pdf
+	rm -rf $(DOCUMENT).tex *.lot *.toc *.lof *.out *.aux *.bbl *.blg *.log acta.pdf
 	@cd fig; \
 	for i in `find . -name "*.dot"` ; do \
 	  b=`basename $$i .dot`.pdf ;\
