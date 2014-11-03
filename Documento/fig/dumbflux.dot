@@ -1,0 +1,8 @@
+digraph dumbflux {
+rankdir=LR;
+node [shape=box];
+
+
+x -> y -> z -> x
+
+}

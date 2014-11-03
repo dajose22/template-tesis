@@ -22,9 +22,20 @@ con las actividades, responsables de las actividades, recursos humanos y
 financieros requeridos, plazos y procedimientos de ejecución para las 
 soluciones propuestas. 
 
+La figura :ref:`ejemplo-plot` muestra un ejemplo de grafico usando gnuplot (ver fig/dumbplot.gplot y fig/fakeData)
+
 .. figure::
 	fig/dumbplot
 	:name: ejemplo-plot
 	:scale: 110%
 
-	Esto es un ejemplo de plot
+	Esto es un ejemplo de gnuplot
+
+La figura :ref:`ejemplo-graph` muestra un ejemplo de grafico usando graphviz (ver fig/dumbflux.dot)
+
+.. figure::
+	fig/dumbflux
+	:name: ejemplo-graph
+	:scale: 110%
+
+	Esto es un ejemplo de graphviz
