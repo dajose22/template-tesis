@@ -1,0 +1,7 @@
+set term pdf
+set output "dumbplot.pdf"
+set xlabel "X ...."
+set ylabel "Y"
+
+plot "fakeData" using 1:2 lt 1 lw 2 smooth unique title 'UNO', \
+     "fakeData" using 1:3 lt 2 lw 2 smooth unique title 'DOS'

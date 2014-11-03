@@ -22,3 +22,9 @@ con las actividades, responsables de las actividades, recursos humanos y
 financieros requeridos, plazos y procedimientos de ejecución para las 
 soluciones propuestas. 
 
+.. figure::
+	fig/dumbplot
+	:name: ejemplo-plot
+	:scale: 110%
+
+	Esto es un ejemplo de plot
