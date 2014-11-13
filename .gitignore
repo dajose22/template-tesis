@@ -9,7 +9,11 @@
 *.blg
 *.lot
 *.toc
+*.nav
+*.snm
 acta.pdf
 main.tex
-
+presentacion.tex
+presentacion.pdf
+main.pdf
 
