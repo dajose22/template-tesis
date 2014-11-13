@@ -56,13 +56,7 @@ pdf:
 	$(LATEX) $(LATEX_OPT); \
 	bibtex main.aux; \
 	$(LATEX) $(LATEX_OPT); \
-	$(LATEX) $(LATEX_OPT); \
-	if [ -f $(DOCUMENT).pdf ]; then \
-		evince $(DOCUMENT).pdf; \
-	fi;
-
-
-
+	$(LATEX) $(LATEX_OPT)
 
 
 

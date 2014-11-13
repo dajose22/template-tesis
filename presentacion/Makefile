@@ -54,14 +54,7 @@ pdf:
 	# Compile LaTeX
 	$(LATEX) $(LATEX_OPT); \
 	$(LATEX) $(LATEX_OPT); \
-	$(LATEX) $(LATEX_OPT); \
-	if [ -f $(DOCUMENT).pdf ]; then \
-		evince $(DOCUMENT).pdf; \
-	fi;
-
-
-
-
+	$(LATEX) $(LATEX_OPT)
 
 
 
